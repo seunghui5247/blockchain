@@ -13,7 +13,7 @@ contract MyERC1155 is ERC1155PresetMinterPauser {
     using Strings for uint256;
 
     // Optional base URI
-    string private _baseURI = "https://raw.githubusercontent.com/hyunkicho/blockchain101/main/erc1155/metadata/";
+    string private _baseURI = "https://raw.githubusercontent.com/seunghui5247/blockchain/main/metadata/";
 
     // Optional mapping for token URIs
     mapping(uint256 => string) private _tokenURIs;
